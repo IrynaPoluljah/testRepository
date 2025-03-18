@@ -1,0 +1,169 @@
+/* RESET START */
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  color: #212121;
+  font: 400 14px/1 "Roboto", sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+ul {
+  padding-inline-start: 0;
+}
+a:hover {
+  color: #000;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+/* RESET END */
+
+.header {
+  background-color: #f0f0f2;
+  background-image: url(images/inner.jpg);
+  background-repeat: no-repeat;
+  background-position: right, center;
+  padding: 90px 0;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.title-wrap {
+  background-color: #000;
+  margin-bottom: 20px;
+  padding: 10px 75px 15px 35px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.075em;
+  width: max-content;
+  font-size: 42px;
+}
+.subtitle {
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 0.4em;
+  color: #041608;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 30px;
+}
+.default-section {
+  padding: 72px 0 40px;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.section-column {
+  width: 48%;
+}
+.default-text {
+  color: #777;
+  letter-spacing: 0.025em;
+  font-size: 18px;
+  line-height: 1.3em;
+}
+.about-me-description + .about-me-description {
+  margin-top: 35px;
+}
+.greyBG-section {
+  background-color: #f3f3f3;
+}
+.subtitle-underline::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 1px;
+  width: 140px;
+  background-color: #000;
+  left: 0;
+  bottom: -10px;
+}
+.default-paragraph + .default-paragraph {
+  margin-top: 20px;
+}
+.input-field {
+  border: 1px solid #ebebeb;
+  color: #737272;
+  padding: 15px 13px;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  background-color: #fafafa;
+  width: 100%;
+}
+.input-field:focus {
+  background-color: #fff;
+}
+.input-field::placeholder {
+  color: #bababa;
+}
+.submit-btn {
+  background-color: #000;
+  padding: 14px 57px;
+  font-size: 13px;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 2px;
+  cursor: pointer;
+  border:none;
+}
+.about-me-form input + input {
+  margin-top: 15px;
+}
+.submit-btn:hover {
+  background-color: #555;
+}
+.contact-list {
+  margin-top: 30px;
+}
+.contact-item + .contact-item {
+  margin-top: 30px;
+}
+.black-text {
+  color: #000;
+}
+.black-text a:hover {
+  color: #777;
+}
+.header-gallery {
+  background-color: #e2e2e2;
+  background-image: url(images/inner-portfolio.png);
+}
+.subtitle-bordered {
+  border-bottom: 1px solid #bababa;
+  border-top: 1px solid #bababa;
+  padding: 18px 0;
+  text-align: center;
+}
+.section-column-triple {
+  width: 32%;
+}
+.portfolio-block img{
+  width: 100%;
+  height: 100%;
+}
+.portfolio-block + .portfolio-block {
+  margin-top: 25px;
+}
+img.align-center {
+  display: block;
+  margin: 0 auto;
+}
